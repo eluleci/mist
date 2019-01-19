@@ -131,7 +131,7 @@ func (p *Proxy) PublishAfter(tags []string, data string, delay time.Duration) {
 }
 
 // List returns a list of all current subscriptions
-func (p *Proxy) List() (data [][]string) {
+func (p *Proxy) List() (data []string) {
 	lumber.Trace("Proxy listing subscriptions...")
 	p.RLock()
 	data = p.subscriptions.ToSlice()

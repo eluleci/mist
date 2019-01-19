@@ -64,10 +64,7 @@ func handlePublish(proxy *mist.Proxy, msg mist.Message) error {
 
 // handleList
 func handleList(proxy *mist.Proxy, msg mist.Message) error {
-	var subscriptions string
-	for _, v := range proxy.List() {
-		subscriptions += strings.Join(v, ",")
-	}
+	subscriptions := strings.Join(proxy.List(), ",")
 	proxy.Pipe <- mist.Message{Command: "list", Tags: msg.Tags, Data: subscriptions}
 	return nil
 }

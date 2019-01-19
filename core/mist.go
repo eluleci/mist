@@ -38,15 +38,13 @@ func Subscribers() string {
 	for i := range subscribers {
 		s := subscribers[i].subscriptions.ToSlice()
 		for j := range s {
-			for k := range s[j] {
-				subs[s[j][k]] = true
-			}
+			subs[s[j]] = true
 		}
 	}
 
 	// slice it
 	subSlice := []string{}
-	for k, _ := range subs {
+	for k := range subs {
 		subSlice = append(subSlice, k)
 	}
 
