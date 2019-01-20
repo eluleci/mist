@@ -7,7 +7,7 @@ import (
 
 	_ "github.com/lib/pq"
 
-	mistAuth "github.com/nanopack/mist/auth"
+	mistAuth "github.com/eluleci/mist/auth"
 )
 
 var (

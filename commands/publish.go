@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/nanopack/mist/clients"
+	"github.com/eluleci/mist/clients"
 )
 
 var (

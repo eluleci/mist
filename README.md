@@ -1,6 +1,6 @@
 # Mist
 
-[![Build Status](https://travis-ci.org/nanopack/mist.svg)](https://travis-ci.org/nanopack/mist)
+[![Build Status](https://travis-ci.org/eluleci/mist.svg)](https://travis-ci.org/eluleci/mist)
 
 Mist is a simple pub/sub based on the idea that messages are tagged. To subscribe, a client simply constructs a list of tags that it is interested in, and all messages that are tagged with *all* of those tags are sent to that client.
 
@@ -55,7 +55,7 @@ Each Message has a set of `tags` and `data`. Tags can take any form you like, as
 
 ``` json
 {
-  "tags": ["company:pagodabox", "product:mist", "repo:#nanopack"],
+  "tags": ["company:pagodabox", "product:mist", "repo:#eluleci"],
   "data": "Mist is awesome!"
 }
 ```
@@ -186,7 +186,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/nanopack/mist/clients"
+	"github.com/eluleci/mist/clients"
 )
 
 func main() {

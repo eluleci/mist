@@ -1,6 +1,6 @@
 package auth
 
-import "github.com/nanopack/mist/core"
+import "github.com/eluleci/mist/core"
 
 // GenerateHandlers ...
 func GenerateHandlers() map[string]mist.HandleFunc {

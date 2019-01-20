@@ -8,8 +8,8 @@ import (
 
 	"github.com/jcelliott/lumber"
 
-	"github.com/nanopack/mist/auth"
-	"github.com/nanopack/mist/core"
+	"github.com/eluleci/mist/auth"
+	"github.com/eluleci/mist/core"
 )
 
 // init adds "tcp" as an available mist server type

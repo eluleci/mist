@@ -9,8 +9,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/nanopack/mist/auth"
-	"github.com/nanopack/mist/server"
+	"github.com/eluleci/mist/auth"
+	"github.com/eluleci/mist/server"
 )
 
 var (

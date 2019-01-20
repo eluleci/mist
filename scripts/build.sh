@@ -21,8 +21,8 @@ getCurrTag() {
 
 # build mist
 echo "Building mist..."
-gox -ldflags="-s -X github.com/nanopack/mist/commands.version=$(getCurrTag)
-  -X github.com/nanopack/mist/commands.commit=$(getCurrCommit)" \
+gox -ldflags="-s -X github.com/eluleci/mist/commands.version=$(getCurrTag)
+  -X github.com/eluleci/mist/commands.commit=$(getCurrCommit)" \
   -osarch "linux/amd64" -output="./build/{{.OS}}/{{.Arch}}/mist"
   # -osarch "darwin/amd64 linux/amd64 windows/amd64" -output="./build/{{.OS}}/{{.Arch}}/mist"
 

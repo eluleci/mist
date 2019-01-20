@@ -7,8 +7,8 @@ import (
 
 	"github.com/jcelliott/lumber"
 
-	"github.com/nanopack/mist/clients"
-	"github.com/nanopack/mist/server"
+	"github.com/eluleci/mist/clients"
+	"github.com/eluleci/mist/server"
 )
 
 var (

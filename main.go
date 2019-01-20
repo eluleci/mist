@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/nanopack/mist/commands"
+	"github.com/eluleci/mist/commands"
 )
 
 func main() {

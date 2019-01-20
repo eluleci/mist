@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nanopack/mist/auth"
-	"github.com/nanopack/mist/server"
+	"github.com/eluleci/mist/auth"
+	"github.com/eluleci/mist/server"
 )
 
 // TestAuthStart tests an auth start process

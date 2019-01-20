@@ -10,8 +10,8 @@ import (
 	"github.com/jcelliott/lumber"
 	"github.com/nanobox-io/golang-nanoauth"
 
-	"github.com/nanopack/mist/auth"
-	"github.com/nanopack/mist/core"
+	"github.com/eluleci/mist/auth"
+	"github.com/eluleci/mist/core"
 )
 
 // init adds ws/wss as available mist server types
