@@ -14,6 +14,9 @@ RUN go install github.com/eluleci/mist
 # Run the dock command by default when the container starts.
 ENTRYPOINT ["/go/bin/mist", "--server"]
 
+# HTTP Server listens on port 8080
+EXPOSE 8080
+
 # WS Server listens on port 8888
 EXPOSE 8888
 
